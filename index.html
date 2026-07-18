@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Private Dashboard</title>
     <link rel="stylesheet" href="style.css">
-<scriptscriptsrc="https://cloudflare.com"><</script>
+    <script src="https://unpkg.com"></script>
 </head>
 <body>
+
     <div class="gallery" id="galleryContainer">
         <img src="etagrupadlyakrytih.jpg" alt="Photo 1" class="site-image">
         <img src="kek.jpg" alt="Photo 2" class="site-image">
@@ -21,11 +22,14 @@
         <img src="smash.jpg" alt="Photo 10" class="site-image">
         <img src="youngersmash.jpg" alt="Photo 11" class="site-image">
     </div>
+    
     <div class="supernatural-text">
         Я СМОТРЮ СВЕРХЬЕСТЕСТВЕННОЕ И ЗНАЮ КАК ИЗГОНЯТЬ НЕЧИСТЬ! СМОТРИТЕ СВЕРХЬЕСТЕСТВЕННОЕ ИНАЧЕ У ВАС БУДУТ ПРОСИТЬ 2КГ ЖАРЕННОЙ КАРТОШКИ
     </div>
+
     <div class="forum-section">
         <input type="text" id="usernameInput" placeholder="Your Nickname">
+        
         <div class="avatar-selection">
             <span style="color:#aaa; font-size:14px; display:block; margin-bottom:5px;">Choose Avatar:</span>
             <select id="avatarInput">
@@ -42,10 +46,13 @@
                 <option value="youngersmash.jpg">Avatar 11</option>
             </select>
         </div>
+
         <textarea id="messageInput" placeholder="Type your message here..."></textarea>
         <button onclick="sendMessage()">Send to Forum</button>
     </div>
+    
     <div id="forumMessages"></div>
+
     <script src="app.js"></script>
 </body>
 </html>
