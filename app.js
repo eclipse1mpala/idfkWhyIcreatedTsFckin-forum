@@ -1,7 +1,7 @@
 const SUPABASE_URL = "https://supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_u75OjV44Wx5I1j_ErFBpvg_QLLWkLvp";
 
-// Официальный вызов библиотеки из источника unpkg
+
 const db = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 async function loadMessages() {
