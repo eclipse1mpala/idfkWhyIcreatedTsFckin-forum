@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e24;
+    color: #e0e0e0;
+    padding: 20px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.forum-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.avatar-selection {
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a32;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 6px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a32;
+    border: 1px solid #444;
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+input[type="text"] {
+    height: 45px;
+}
+
+textarea {
+    height: 90px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#forumMessages {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.message-card {
+    background-color: #2a2a32;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #ff3333;
+}
+
+.message-author {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.message-text {
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+.gallery {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 20px;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.site-image {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.supernatural-text {
+    font-size: 32px;
+    font-weight: 900;
+    color: #ff3333;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
